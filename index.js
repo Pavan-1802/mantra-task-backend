@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://www.mantra-task.netlify.app",
+  "https://mantra-task.netlify.app",
 ];
 
 app.use(cors({ origin: allowedOrigins }));
